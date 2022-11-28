@@ -1,0 +1,6 @@
+source:
+  relation_db:
+    mt4_prices:
+      db: "mt4"
+      schema: "au_eod_price_new"
+      

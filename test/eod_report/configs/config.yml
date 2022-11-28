@@ -1,0 +1,13 @@
+sources:
+  relational_db:
+    mt4_users_query_mt4:
+      db: "mt4"
+      schema: 
+        - "enfaureport"
+        - "enfau2report"
+      connector_type: "mysql_db"
+      query: "
+      SELECT database() as server, login 
+      FROM mt4_users 
+      LIMIT 5
+      " 
